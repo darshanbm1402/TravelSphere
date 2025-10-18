@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"  />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    /* *{
+        background-color: cadetblue;
+    } */
+a{text-decoration: none;}
+header{
+    height: fit-content;
+    width: 100%;
+    padding: 2px;
+    margin-top: 0%;
+    background-color: #91C4C3;
+    border: 2px solid none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+header a{
+    color: black;
+    font-size: 1.2em;
+    margin: 10px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+header ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: space-around;
+    align-content: center;
+}
+header img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+
+
+    .bglr{display: flex;
+        flex-direction: row;
+        border: 20px;
+        border-radius: 15px;
+        width:auto;
+        height: 300px;
+        justify-content: space-between;
+        background-color: rgb(245, 242, 242);
+    }
+    .vidhan{
+        border: 20px;
+        width: 500px;
+        height: 300px ;
+        border-radius: 15px;
+    }
+    .bglr1{
+        display: flex;
+        flex-direction: column;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        color: black;
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .p1{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 20px;
+    }
+    .bot{
+        display: flex;
+        border: 2px;
+        background-color: bisque;
+        flex-direction: row;
+        border-radius: 20px;
+        justify-content: space-evenly;
+        padding-top: 3px;
+        align-items: center;
+    }
+    .lef{display: flex;
+        background-color: brown;
+        border: 20px;
+        border-radius: 15px;
+        width: 500px;
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 20px;
+        /* align-items: center; */
+    }
+    .dow{display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background-color: white;
+        border-radius: 70px;
+        margin-left: 150px;
+        text-align: center;
+    }
+    .dow a{
+        color: black;
+        text-decoration: none;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 200px;
+        background-color:beige;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .back{
+    color: red;
+ }
+    .font{
+        display: flex;
+        color: orange;
+        text-align: center;
+        background-color:black;
+        border-radius: 10px;
+        align-items: center;
+        padding-left: 550px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer{
+    padding-top: 15px;
+    background-color: #223645FA;
+    height: auto;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.foot img{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+.fdiv1{
+    width: 205px;
+    height: 120px;
+}
+.fdiv4 img{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.fdiv5{
+    margin-top: 40px;
+    text-align: center; 
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+}
+.icons a{
+    color: white;
+    padding: 10px;
+}
+.icons li:hover{
+    background-color: rgb(3, 3, 251);
+}
+</style>
+<body>
+    <header>
+    <div>  <a href="index.html" target="_self" > <img src="./images/logo.jpg" alt="logo" > </a>  </div>
+    <div>
+        <ul type="none" > 
+            <li> <a href="index.html" > Home </a> </li>
+            <!-- <li> <a href="#" > Packages </a> </li> -->
+            <li> <a href="destinations.html" class="back"> Destinations </a> </li>
+            <li> <a href="guide.html" > Travel Guide </a> </li>
+            <li> <a href="travelBlog.html" > Travel Blog </a> </li>
+            <li> <a href="index.html#gallery" > Gallery </a> </li>
+            <li> <a href="index.html#Testimonials" > Our Testimonials </a> </li>
+            <li> <a href="contactus.html" > Contact Us </a> </li>
+            <li> <a href="prac.html" > Sign in </a> </li>
+        </ul>
+    </div>
+</header>
+
+<br>
+<div class="head">
+    <h3> POPULAR PACKAGES </h3>
+    <br>
+    <h2> CHECKOUT  OUR POPULAR PACKAGES OF</h3>
+    <br>
+    <h3>TRAVELSPHERE</h3>
+    <br>
+    </div> 
+    <br>
+
+    <div class="font">
+    <h2> KARNATAKA POPULAR PLACES </h2>
+    </div>
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/bengaluru.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> 🌿 “Bengaluru — where tradition meets technology, and every breeze carries the scent of innovation and rain.” </P>
+            <p>  the city of gardens, dreams, and endless innovation.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Bengaluru </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 5D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹10000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/bidar.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "**Bidar — where history whispers through ancient forts and culture blooms with timeless pride.**"</P>
+            <p>"**Bidar is a land of rich heritage, majestic forts, and vibrant culture.**"</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Bidar </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹3000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/kalaburgi.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Kalaburagi — where history whispers through ancient forts and culture blooms with timeless grace."</P>
+            <p>Kalaburgi: Kalaburgi is known for its rich history and architectural heritage.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Kalaburgi </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹3000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/raichur.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Raichur — where the golden sands of history meet the vibrant spirit of Karnataka."</P>
+            <p>Raichur: Raichur is famous for its forts and fertile lands along the Krishna river.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Raichur </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1>  ₹2500</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/yadagiri.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Yadgiri — the land of mighty rocks, rich culture, and serene natural beauty."</P>
+            <p>Yadgir: Yadgir is an emerging district with cultural and historical significance.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Yadagiri </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹2500</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/vijayapur.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Vijayapur — where royal heritage meets the spirit of progress and pride."</P>
+            <p></p>Vijayapura: Vijayapura, also known as Bijapur, is famous for its stunning Gol Gumbaz and historical monuments.
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Vijayapur</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹8000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/bagalakote.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Bagalakote — where the ruins of Badami and Aihole whisper the glory of the past."</P>
+            <p>Bagalakote: Bagalakote is renowned for its limestone production and historic sites.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Bagalakote </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 4D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹8000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/belgavi.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Belagavi — the city of unity, courage, and captivating landscapes." </P>
+            <p>Belagavi: Belagavi is known for its vibrant culture and sugarcane farming.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Belagavi </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹3500</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/gadag.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Gadag — where culture, literature, and devotion shine with timeless brilliance."</P>
+            <p>Gadag: Gadag is celebrated for its ancient temples and Chalukya architecture.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Gadag </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹2500</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/dharwada.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Dharwad — the cradle of melody, intellect, and gentle charm. </P>
+            <p>Dharwad: Dharwad is a hub for education and classical music traditions.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Dharawad </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹3000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/bellary.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Ballari — a land of iron strength and golden heritage."</P>
+            <p>Bellary: Bellary is rich in mineral resources and historical forts.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Bellary </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹5000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/koppal.webp" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Koppal — where ancient stones speak the tales of valor and faith."</P>
+            <p>Koppal: Koppal holds ancient temples and historical monuments from the Vijayanagara era.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Koppal </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹4000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/davanagere.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Davanagere — the heart of Karnataka, famous for its taste and tradition."</P>
+            <p>Davanagere: Davanagere is famous for its textile industry and delicious benne dose.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Davanagere </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹3000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/vijaya nagar.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Vijayanagar whispers the glory of empires through the timeless ruins of Hampi."</P>
+            <p>Vijayanagar district is renowned for its historic Hampi ruins and rich cultural heritage.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Vijayanagara </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹3000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/haveri.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Haveri — the birthplace of poets, pulsating with rural beauty and tradition."</P>
+            <p>Haveri: Haveri is noted for its ancient temples and agricultural economy.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Haveri </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹2500</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/chitradurga '.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Chitradurga — the fort city of courage, echoing tales of bravery and pride."</P>
+            <p>Chitradurga: Chitradurga is famous for its massive fort and rocky terrain.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> chitradurga </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹4000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/udupi.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Udupi — the land of divine cuisine, devotion, and serene shores."</P>
+            <p>Udupi: Udupi is famous for its temples, cuisine, and educational institutions.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Udupi</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹6000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/uttar kannada.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Uttar Kannada — where the sea meets the forest in perfect harmony.</P>
+            <p>Uttar Kannada: Uttar Kannada is known for its scenic Western Ghats and pristine beaches</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Uttara kannada </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 5D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹10000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/shivamogga.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Shivamogga — the gateway to the Western Ghats, where nature reigns supreme.</P>
+            <p>Shivamogga: Shivamogga is a gateway to the Western Ghats and lush coffee plantations.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Shivamogga </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹5000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/tumakuru.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Tumakuru — the land of industry, intellect, and spiritual legacy."</P>
+            <p>Tumakuru: Tumakuru is known for its industrial growth and educational institutions.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Tumakuru </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹4000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/dakshina kannada.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Dakshina Kannada — the coastal gem where culture, education, and nature blend beautifully.</P>
+            <p>Dakshina Kannada: Dakshina Kannada is celebrated for its coastal beauty and diverse culture.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Dakshina kannada</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹6000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/chikkamagaluru.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Chikkamagaluru — the birthplace of coffee, wrapped in hills and tranquility."</P>
+            <p>Chikkamagaluru: Chikkamagaluru is celebrated for its scenic hills and coffee estates.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Chikkamagaluru </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 5D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹10000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/Hassan.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Hassan — where Hoysala art stands eternal amidst green hills."</P>
+            <p>Hassan: Hassan is known for its Chennakeshava Temple and scenic landscapes.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Hassan </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 4D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹8000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/kodagu.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Kodagu — the Scotland of India, where mist, coffee, and courage fill the air."</P>
+            <p>Kodagu: Kodagu, or Coorg, is famous for coffee plantations and misty hills.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Kodagu </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹6000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/mysure.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Mysuru — the royal city where tradition meets elegance and pride."</P>
+            <p>Mysuru: Mysuru is renowned for its royal heritage and Dasara festival.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Mysure</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹6000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/mandya.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Mandya — the sweet land of sugarcane, culture, and simplicity."</P>
+            <p>Mandya: Mandya is the sugarcane hub of Karnataka with fertile lands.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Mandya </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹4000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/chamaraj nagar.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Chamarajanagar — where nature’s wilderness and culture’s warmth unite."</P>
+            <p>Chamarajanagar: Chamarajanagar is known for its forests, wildlife, and tribal culture.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Chamarajnagar </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹4000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/bengaluru rural.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Bengaluru Rural — the green heartbeat beside the city of dreams."</P>
+            <p>Bengaluru Rural: Bengaluru Rural surrounds the IT city with farms and growing towns.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Bengaluru Rural </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹6000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/kolar.webp" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">"Kolar — the golden land, rich with mines, temples, and memories."</P>
+            <p>Kolar: Kolar is historically known for its gold fields and temple</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Kolar</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹4000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/chikkaballapur.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Chikkaballapur — where misty hills, farms, and peace paint a perfect picture."</P>
+            <p>Chikkaballapur: Chikkaballapur is known for Nandi Hills and serene landscapes.<p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Chikkaballapur</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹4000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/Ramanagar.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> "Ramanagara — the rocky wonderland, where cinema, silk, and scenic beauty thrive."</P>
+            <p>Ramanagara: Ramanagara is famous for its rocky landscapes and silk industry.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Ramanagar</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 1D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹2000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+    <br>
+    
+    <div class="font" id="font">
+    <h1> POPULAR PLACES OF INDIA</h1>
+    </div>
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/kashmir.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Jammu & Kashmir: "Jammu & Kashmir enchants with snow-capped mountains, serene valleys, and timeless beauty."</P>
+            <p>Jammu & Kashmir: Jammu & Kashmir mesmerizes with snow-capped peaks and valleys.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Jammu & Kashmir</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 5D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹50000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/himachal pradesh.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Himachal Pradesh: Himachal Pradesh enchants with snow peaks and apple orchards.</P>
+            <p>Himachal Pradesh: Himachal Pradesh enchants with snow-capped peaks and lush valleys.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Himachal Pradesh</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 5D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹50000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/hariyana.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Haryana: Haryana thrives with fields, sports, and rich folklore.</P>
+            <p>Haryana: Haryana flourishes with agriculture, sports talent, and folk culture.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Hariyana</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹30000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/punjab.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Punjab: Punjab resonates with fields, Bhangra, and golden Gurudwaras.</P>
+            <p>Punjab: Punjab thrives with fertile fields, Bhangra dance, and golden Gurudwaras.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Ramanagar</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹30000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/uttara khanda.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Uttarakhand: "Uttarakhand whispers peace through its majestic Himalayas and sacred rivers."</P>
+            <p>Uttarakhand: Uttarakhand is blessed with Himalayas, rivers, and spiritual retreats.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Uttarakhanda </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 5D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹50000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/delhi.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Delhi: "Delhi pulses with history, culture, and the vibrant energy of India’s capital."</P>
+            <p>Delhi: Delhi thrives with history, monuments, and the pulse of the nation.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> New delhi</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹100000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/rajastan.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Rajasthan: Rajasthan stands proud with deserts, forts, and royal heritage.</P>
+            <p>Rajasthan: Rajasthan dazzles with forts, deserts, and royal heritage.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Rajastan</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 1D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹140000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/gujarat.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Gujarat: Gujarat shines with the White Desert, Gir lions, and colorful culture.</P>
+            <p>Gujarat: Gujarat is known for Gir lions, the Rann of Kutch, and rich traditions.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Gujarat</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹100000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/uttara pradesh.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Uttar Pradesh: Uttar Pradesh lives in the ghats of Varanasi and Taj Mahal’s glory.</P>
+            <p>Uttar Pradesh: Uttar Pradesh lives in the Taj Mahal, ghats, and historic cities.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Uttar Pradesh</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 12D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹150000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/madya pradesh.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Madhya Pradesh: Madhya Pradesh houses history in Khajuraho and wildlife in Kanha.</P>
+            <p>Madhya Pradesh: Madhya Pradesh holds ancient temples, forts, and wildlife reserves.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Madya Pradesh</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹90000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/bihar.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Bihar: Bihar tells tales of history from Nalanda to Bodh Gaya.</P>
+            <p>Bihar: Bihar boasts ancient learning centers, historic sites, and spiritual heritage.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Bihar</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 4D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹40000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/sikkim.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Sikkim: Sikkim floats in clouds, monasteries, and Himalayan beauty.</P>
+            <p>Sikkim: Sikkim charms with Himalayas, monasteries, and natural beauty.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Sikkim</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 3D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹40000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/arunachal pradesh.jpg"alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Arunachal Pradesh: Arunachal Pradesh greets you with misty mountains and serene valleys.</P>
+            <p>Arunachal Pradesh: Arunachal Pradesh dazzles with misty mountains, rivers, and vibrant tribal culture.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Arubachal Pradesh</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹100000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/asssam.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Assam: Assam flows with the Brahmaputra and the fragrance of tea gardens.</P>
+            <p>Assam: Assam thrives with tea gardens, the Brahmaputra, and wildlife sanctuaries.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Assam</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 6D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹70000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/manipur.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Manipur: Manipur blooms with vibrant festivals and serene Loktak Lake.</P>
+            <p>Manipur: Manipur is known for Loktak Lake, festivals, and rich traditions.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Ramanagar</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 6D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹70000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/meghalaya.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Meghalaya: Meghalaya mesmerizes with living root bridges, waterfalls, and hills.  </P>
+            <p>Meghalaya: Meghalaya rains magic over living root bridges and misty hills.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Meghalay</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹80000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/tripura.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Tripura: Tripura glows with palaces, forests, and tribal traditions.</P>
+            <p>Tripura: Tripura showcases palaces, forests, and tribal traditions.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Tripura </p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 5D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹70000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/nagalyand.webp" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Nagaland: Nagaland celebrates tribal culture and vibrant Hornbill festivities.</P>
+            <p>Nagaland: Nagaland celebrates vibrant tribal culture and the Hornbill festival.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Nagalyand</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹100000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/jarkhanda.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Jharkhand: Jharkhand sparkles with forests, minerals, and tribal traditions.</P>
+            <p>Jharkhand: Jharkhand is rich in minerals, forests, and tribal heritage.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Jarkhand</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹80000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/chattisagadha.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Chhattisgarh: Chhattisgarh echoes with waterfalls, forests, and tribal heritage.</P>
+            <p>Chhattisgarh: Chhattisgarh is home to dense forests, waterfalls, and tribal traditions.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Chattisagadha</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 6D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹80000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+     <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/west bengal.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> West Bengal: West Bengal flows with culture, art, and the Ganga’s grace.</P>
+            <p>West Bengal: West Bengal flows with culture, art, literature, and the Ganga.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> West bengal</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 10D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹100000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/maharastra.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Maharashtra: Maharashtra dances between Mumbai’s skyline and Sahyadri forts.</P>
+            <p>Maharashtra: Maharashtra balances Mumbai’s skyline with forts, culture, and beaches.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Maharastra</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 15D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹150000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/karnatak.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Karnataka: Karnataka blends tech cities with timeless temples and hills.</P>
+            <p>Karnataka: Karnataka blends IT hubs, historical monuments, and scenic hills.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> West bengal</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 30D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹300000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/goa.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Goa: Goa dances to the rhythm of beaches, sun, and vibrant festivals. </P>
+            <p>Goa: Goa shines with sandy beaches, Portuguese heritage, and lively festivals.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> West bengal</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 2D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹40000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/odisha.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Odisha: Odisha shines with temples, beaches, and ancient arts.</P>
+            <p>Odisha: Odisha is famous for temples, arts, and picturesque beaches.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Odisha</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 10D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹100000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/telangana.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Telangana: Telangana thrives with heritage, lakes, and vibrant culture.</P>
+            <p>Telangana: Telangana balances heritage, lakes, and modern development.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> Telangana</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 7D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹80000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/andra pradesh.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Andhra Pradesh: Andhra Pradesh blooms with spicy cuisine and ancient temples.</P>
+            <p>Andhra Pradesh: Andhra Pradesh is known for its rich temples, spicy cuisine, and scenic coastline.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> West bengal</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 10D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹100000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/tamil nadu.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1">Tamil Nadu: Tamil Nadu sings through temples, classical arts, and spices.</P>
+            <p>Tamil Nadu: Tamil Nadu is known for temples, classical arts, and rich culture.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> West bengal</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 13D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹1500000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+
+    <br>
+    <div class="bglr"> 
+        <div> 
+            <img  class="vidhan" src="./images/keral.jpg" alt=""> 
+        </div>
+        <div class="bglr1"> 
+            <P class="p1"> Kerala: Kerala whispers through backwaters, coconuts, and lush greenery.</P>
+            <p>Kerala: Kerala is famous for backwaters, coconuts, and tranquil landscapes.</p>
+            <div class="bot"> 
+            <i class="fa-solid fa-location-dot"></i>
+            <p> West bengal</p>
+           <i class="fa-solid fa-clock"></i>
+            <p> 20D</p>
+            <i class="fa-solid fa-person"></i>
+            <p>1</p>
+            </div>
+        </div>
+        <div class="lef"> 
+            <p> (reviews) ⭐⭐⭐⭐⭐</p><br><br>
+            <h1> ₹250000</h1>
+            <div class="dow"> 
+                <a href="booknow.html"> BOOK NOW</a>
+            </div>
+        </div>  
+    </div>
+    <br>
+    
+  <footer class="footer">
+        <div class="foot">
+        <div class="fdiv1">
+            <img src="./images/plane.png" alt="plane-logo" style="width: 30px; height: 30px;">
+            <h3> Global Tour</h3>
+            <p>Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia at perferendis, pretium, aenean aut ultrices.</p>
+        </div>
+        <div class="fdiv2">
+            <h3> Recent post</h3>
+            <img src="./images/photo1.png" alt="photo1">
+            <img src="./images/photo2.png" alt="photo2">
+        </div>
+        <div class="fdiv3">
+            <h3>Contact-Us</h3>
+            <p>Feel free to contact and reach us !</p>
+            <p>Office: +123 4567 890</p>
+            <p>info@gmail.com</p>
+            <p>36 Nora Dreek, India</p>
+        </div>
+        <div class="fdiv4">
+            <h3> Gallery</h3>
+            <img src="./images/photo3.png" alt="photo1">
+            <img src="./images/photo4.png" alt="photo2"> 
+            <img src="./images/photo5.png" alt="photo3"><br>
+            <img src="./images/photo6.png" alt="photo4">
+            <img src="./images/photo7.png" alt="photo5">
+            <img src="./images/photo8.png" alt="photo6">
+        </div>
+        <div>  
+        <div> <h3> Follow Us </h3> </div>
+    <div class="iconsdiv">
+        <ul class="icons" type="none">
+            <li> <a href="https://www.instagram.com" target="_blank" >  <i class="fa-brands fa-instagram"></i> </a> </li> 
+            <li> <a href="https://x.com" target="_blank"> <i class="fa-brands fa-x-twitter"></i> </a> </li> 
+            <li> <a href="https://in.linkedin.com" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a> </li> 
+            <li> <a href="https://m.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i> </a> </li> 
+            <li> <a href="https://youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i>  </a> </li>
+            <li> <a href="https://www.whatsapp.com" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a> </li>
+            <!-- <li> <a href="#" > </a> </li> -->
+        </ul>
+    </div>
+    </div>
+    </div>
+        <div class="fdiv5">
+            <p>© 2025 TravelSphere. All Rights Reserved </p>
+        </div>
+    </footer>  
+</body>
+</html>

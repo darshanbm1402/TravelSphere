@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Us</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+                *{
+            margin: 0px;
+            /* background-color: cadetblue; */
+            flex-wrap: wrap;
+        }
+        header{
+            height: auto;
+            width: 100%;
+            padding: 2px;
+            margin-top: 0%;
+            background-color: #91C4C3;
+            /* border: 2px solid none; */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: row;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            right: 0px;
+        }
+        header a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.2em;
+            margin: 0.625rem;
+            margin-right: 1.25rem;
+            justify-content: space-evenly;
+            align-items: center;
+            align-content: center;
+        }
+        header ul{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: row;
+            justify-content: space-around;
+            align-content: center;
+        }
+        header img{
+            width: 4.375rem;
+            height: 4.375rem;
+            /* margin-top: 2px; */
+            margin: 0.625rem;
+            align-content: center;
+            align-items: center;
+            border-radius: 20%;
+        }
+        .header{
+            background: url(./images/backgrd.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 25rem;
+            text-align: center;
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: cadetblue;
+        }
+        .back{
+    color: red;
+ }
+        /* ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        } */
+        a{
+            text-decoration: none;
+            color: black;
+            flex-direction: row;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            background-color: cadetblue;
+        }
+        .section1{
+            flex-direction: column;
+            width: 31.25rem;
+            margin-right: 6.25rem;
+            margin-left: 3.125rem;
+            padding: 6.25rem;
+            background-color: cadetblue;
+        }
+        .section1 a{
+            text-decoration: dashed;
+        }
+        .section1 img{
+            height: 25rem;
+            width: 31.25rem;
+            border-radius: 10%;
+            margin-top: 0.625rem;
+        }
+        .section2{
+            background-color: brown;
+            padding: 3rem;
+            border-radius: 10%;
+            font-size: 1.25rem;
+            width: 27.18rem;
+            height: fit-content;
+            text-align: center;
+            margin: 1.56rem;
+        }
+        .section3{
+            background-color: cadetblue;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: flex;
+            height: 21.87rem;  
+        }
+        .section3 img{
+            width: 1.87rem;
+            height: 1.87rem;
+        }
+        .email{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            width: 22rem;
+            height: 16rem;
+            border-radius: 1.56rem;
+        }
+        .phone{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            width: 22rem;
+            height: 16rem;
+            border-radius: 1.56rem;
+
+        }
+        .location{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            width: 22rem;
+            height: 16rem;
+            border-radius: 1.56rem;
+
+        }
+        .footer{
+            padding-top: 15px;
+            background-color: #223645FA;
+            height: max-content;
+            color: white;
+            width: 100%;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .foot{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+        .foot img{
+            width: 70px;
+            height: 70px;
+            padding: 5px;
+        }
+        .fdiv1{
+            width: 205px;
+            height: 120px;
+        }
+        .fdiv4 img{
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+        }
+        .fdiv5{
+            margin-top: 40px;
+            text-align: center;
+        }
+        .icons{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            padding: 10px;
+        }
+        .icons a{
+            color: white;
+            padding: 10px;
+        }
+        .icons li:hover{
+            background-color: rgb(3, 3, 251);
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div>  <a href="index.html" target="_self" > <img src="./images/logo.jpg" alt="logo" > </a>  </div>
+    <div>
+        <ul type="none" > 
+            <li> <a href="index.html" > Home </a> </li>
+            <!-- <li> <a href="#" > packages </a> </li> -->
+            <li> <a href="destinations.html" > Destinations </a> </li>
+            <li> <a href="guide.html" > Travel Guide </a> </li>
+            <li> <a href="travelBlog.html" > Travel Blog </a> </li>
+            <li> <a href="index.html#gallery" > Gallery </a> </li>
+            <li> <a href="index.html#Testimonials" > Our Testimonials </a> </li>
+            <li> <a href="contactus.html" class="back"> Contact Us </a> </li>
+            <li> <a href="prac.html" > Sign in </a> </li>
+        </ul>
+    </div>
+</header>
+    <!-- <div class="header">
+        <h2> Contact-Us</h2>
+        <a href="#">Home</a>
+        <a href="#">Contact-Us</a>
+    </div> -->
+    <section class="header">
+        <h1> Contact-Us</h1>
+      <!-- <a href="index.html">Home</a>
+      <a href="contactus.html#section3">Contact</a> -->
+  </section>
+    <section class="main">
+        <div class="section1">
+            <!-- <a href="contactus.html"> get in touch</a> -->
+            <br><br>
+            <h2> REACH & CONTACT US!</h2>
+            <p>Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent. Eget feugiat error necessitatibus taciti.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.990264116646!2d77.72525767484841!3d13.350881387000486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16773c548eed%3A0xb9434aad7474e7df!2sNagarjuna%20College%20Of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1760435795605!5m2!1sen!2sin" width="500" height="400" style="border:0; margin-top: 1rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="section2">
+            <form method="post" action="filename.php">
+                <label> First Name.</label><br><br>
+                <input type="text" placeholder="First Name*" id="name" name="box1" style="width: 21.25rem; height: 3.25rem; border-radius: 0.625rem;" required>
+                <br><br>
+                <label> Last Name.</label><br><br>
+                <input type="text" placeholder="last Name" id="name" name="box12" style="width: 21.25rem; height: 3.25rem; border-radius: 0.625rem;" >
+                <br><br>
+                <label> Phone Number</label><br><br>
+                <input type="number" placeholder="Phone number*" id="mail" name="box13" style="width: 21.25rem; height: 3.25rem; border-radius: 0.625rem; "  required>
+                <br><br>
+                <label> E-mail Address</label><br><br>
+                <input type="email" placeholder=" E-Mail Id*" id="mail" name="box2" style="width: 21.25rem; height: 3.25rem; border-radius: 0.625rem;" required>
+                <br><br>
+
+                <label> Comments/Questions</label><br><br>
+                <textarea id="area" name="box3" placeholder="enter address(optional)" style="width: 21.25rem; height: 6.25rem; border-radius: 0.625rem;"></textarea>
+                <br><br>
+
+                <input type="submit" placeholder="submit message" id="submit" name="box4" style="width: 21.25rem; height: 3.25rem; border-radius: 0.625rem; margin-top: 4.25rem;">
+            </form>
+        </div>
+    </section>
+
+    <section class="section3" id="section3">
+        <div class="email">
+            <img src="./images/email.png" alt="email-logo"><br>
+            <h3>E-mail Address</h3><br>
+            <p>travelsphere@gmail.com</p>
+            <p>travelspher1@gmail.com</p>
+            <p>travelsphere2@gmail.com</p>
+        </div>
+        <div class="phone">
+            <img src="./images/phone.png" alt="phone-logo"><br>
+            <h3>Phone Number</h3><br>
+            <p>8745784556</p>
+            <p>8451248567</p>
+            <p>9856236595</p>
+        </div>
+        <div class="location">
+            <img src="./images/location.png" alt="location-logo"><br>
+            <h3>Address Location</h3><br>
+            <p>3261 Qoontz, California</p>
+            <p>Quze.21 Third floor></p>
+            <p>37 Street, London</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="foot">
+        <div class="fdiv1">
+            <img src="./images/plane.png" alt="plane-logo" style="width: 30px; height: 30px;">
+            <h3> Global Tour</h3>
+            <p>Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia at perferendis, pretium, aenean aut ultrices.</p>
+        </div>
+        <div class="fdiv2">
+            <h3> Recent post</h3>
+            <img src="./images/photo1.png" alt="photo1">
+            <img src="./images/photo2.png" alt="photo2">
+        </div>
+        <div class="fdiv3">
+            <h3>Contact-Us</h3>
+            <p>Feel free to contact and reach us !</p>
+            <p>Office: +123 4567 890</p>
+            <p>info@gmail.com</p>
+            <p>36 Nora Dreek, India</p>
+        </div>
+        <div class="fdiv4">
+            <h3> Gallery</h3>
+            <img src="./images/photo3.png" alt="photo1">
+            <img src="./images/photo4.png" alt="photo2">
+            <img src="./images/photo5.png" alt="photo3"><br>
+            <img src="./images/photo6.png" alt="photo4">
+            <img src="./images/photo7.png" alt="photo5">
+            <img src="./images/photo8.png" alt="photo6">
+        </div>
+        <div>  
+        <div> <h3> Follow Us </h3> </div>
+    <div class="iconsdiv">
+        <ul class="icons" type="none">
+            <li> <a href="https://www.instagram.com" target="_blank" >  <i class="fa-brands fa-instagram"></i> </a> </li> 
+            <li> <a href="https://x.com" target="_blank"> <i class="fa-brands fa-x-twitter"></i> </a> </li> 
+            <li> <a href="https://in.linkedin.com" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a> </li> 
+            <li> <a href="https://m.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i> </a> </li> 
+            <li> <a href="https://youtube.com" target="_blank"> <i class="fa-brands fa-youtube"></i>  </a> </li>
+            <li> <a href="https://www.whatsapp.com" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a> </li>
+            <!-- <li> <a href="#" > </a> </li> -->
+        </ul>
+    </div>
+    </div>
+    </div>
+        <div class="fdiv5">
+            <p>© 2025 TravelSphere. All Rights Reserved </p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,381 @@
+a{text-decoration: none;}
+header{
+    height: fit-content;
+    width: 100%;
+    padding: 2px;
+    margin-top: 0%;
+    background-color: #91C4C3;
+    border: 2px solid none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+header a{
+    color: black;
+    font-size: 1.2em;
+    margin: 10px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+header ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: space-around;
+    align-content: center;
+}
+header img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    align-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.back{
+    color: red;
+ }
+#explore{
+    background-color: paleturquoise;
+    border: 2px solid none;
+    height: 400px;
+    width: 100%;
+    margin-top: 4.65em;
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+/* #explore_cont{
+    width: 800px;
+    justify-self: center;
+}
+#explore h1{
+    text-align: center;
+    font-size: 2em;
+    color: hotpink;
+}
+#explore p{
+    text-align: center;
+    padding: 10px;
+}
+#link_div{
+    width:800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#link{
+    border: 2px solid  yellowgreen;
+    border-radius: 5%;
+    justify-self: center;
+    align-content: center;
+    width: fit-content;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 5px 5px 10px cornflowerblue;
+    text-shadow: 4px 8px 8px rgb(255, 2, 32);
+}
+#link a{
+    color: purple;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+.footer{
+    padding-top: 15px;
+    background-color: #223645FA;
+    height: auto;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.foot img{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+.fdiv1{
+    width: 205px;
+    height: 120px;
+}
+.fdiv4 img{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.fdiv5{
+    margin-top: 40px;
+    text-align: center; 
+}
+.icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    padding: 10px;
+}
+.icons a{
+    color: white;
+    padding: 10px;
+}
+.icons li:hover{
+    background-color: rgb(3, 3, 251);
+}
+#Tour_of_world{
+    border: 2px solid whitesmoke;
+    border-radius: 4%;
+    box-shadow: 4px 4px 6px rgb(243, 241, 241);
+    background-color: rgb(223, 246, 246);
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+}
+#Tour_of_world a{
+    color:goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Tour_of_world h1{
+    color: rgb(142, 4, 71);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Tour_of_world span{
+    /* color: #ff1cc2; */
+    font-weight:  bolder;
+    font-style: italic ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 3px 3px 3px #046664; */
+}
+#Tour_world{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+    height: 60vh;
+    padding: 10px;
+    justify-self: center;
+    justify-content: center;
+}
+#Tour_world img{
+    width: 100%;
+    height: 50vh;
+}
+#tour1{
+    border: 2px solid rgb(83, 83, 245);
+    width:100%;
+    height: 50vh;
+    margin: 15px;
+    font-style: italic;
+    font-size: 25px;
+}
+#Tour_of_India{
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px rgb(244, 230, 230);
+    border-radius: 4%;
+    margin: 10px;
+    padding:10px;
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(222, 239, 254);
+}
+#Tour_of_India span{
+    /* color:#1b014c; */
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-shadow: 3px 3px 3px rgb(57, 85, 3); */
+}
+#Tour_of_India h1{
+    color:#6d1fff;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Tour_of_India a{
+    color:goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Tour_India{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+    height: 60vh;
+    padding: 10px;
+    margin: 10px;
+    justify-self: center;
+}
+#Tour_India img{
+    width: 100%;
+    height: 50vh;
+}
+#India1{
+    border: 2px solid blue;
+    width:100%;
+    height: 50vh;
+    margin: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+#Experience_uniqueness{
+    border: 2px solid white;
+    border-radius: 4%;
+    background-color: rgb(224, 252, 252);
+    box-shadow: 5px 5px 5px rgb(248, 205, 205);
+    margin: 10px;
+    padding:10px;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    justify-content: center;
+}
+#Unique_travels{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 70vh;
+    padding: 10px;
+    margin: 5px;
+    justify-self: center;
+}
+#Unique_travels img{
+    width: 100%;
+    height: 50vh;
+}
+#Unique1{
+    border: 2px solid blue;
+    height: 50vh;
+    margin: 10px;
+    align-content:flex-end;
+    font-style: italic;
+    font-size: 20px;
+}
+#Experience_uniqueness a{
+    color:goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Experience_uniqueness span{
+    /* color:#d804f4; */
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-shadow: 4px 4px 4px rgb(57, 85, 3); */
+}
+#Experience_uniqueness h1{
+    color:#c3034c;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Testimonials{
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px rgb(253, 211, 211);
+    border-radius: 4%;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(225, 254, 255);
+}
+#reviews{
+    width: 100%;
+    height: 70vh;
+    margin: 5px;
+    padding: 5px;
+}
+.fed1{
+border: 2px solid rgb(209, 207, 207);
+width: 60%;
+height: 45%;
+margin: 5px;
+padding: 5px;
+justify-self: center;
+box-shadow: 2px 2px 2px rgb(188, 250, 250);
+}
+#Testimonials h1{
+    color:rgb(250, 69, 69);
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#gallery{
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px rgb(246, 184, 184);
+    border-radius: 4%;
+    background-color: rgb(224, 255, 255);
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 75vh;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#photos{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    height: 50vh;
+    border: 2px solid none;
+}
+#photos img{
+    width: 100%;
+    height: 100%;
+}
+#images{
+    margin: 10px;
+    border: 2px solid wheat;
+}
+#gallery h1{
+    color:rgb(153, 14, 252);
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Tour_of_world #more,
+#Tour_of_India #more,
+#Experience_uniqueness #more,
+#Testimonials #more,
+#gallery #more{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    border-radius: 20px;
+    background-color: rgb(7, 7, 246);
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+    font-size: medium;
+    border: 2px solid none;
+}
+
+
+
+
+
+
+
+

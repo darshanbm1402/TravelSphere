@@ -1,0 +1,88 @@
+<html>
+<head>
+  <title>Sign In</title>
+  <style>
+    body {
+    background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .signin-cont {
+      background: #fff;
+      padding: 40px 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      width: 320px;
+      text-align: center;
+    }
+    .signin-cont h2 {
+      color: #049ccf;
+      margin-bottom: 20px;
+    }
+    .input-field {
+      margin: 15px 0;
+      width: 100%;
+    }
+    .input-field input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: border 0.3s ease;
+    }
+    .input-field input:focus {
+      border-color: #00b4db;
+    }
+    .btn {
+      background: #91e4f7;
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 10px;
+      margin-top: 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0083b0;
+    }
+    .links {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    .links a {
+      color: #047e9a;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .links a:hover {
+      color: #04779d;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signin-cont">
+    <h2>Welcome Back </h2>
+    <form action="#" method="post">
+      <div class="input-field">
+        <input type="email" placeholder="Email address" required />
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <button type="submit" class="btn">Sign In</button>
+      <div class="links">
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+        <p><a href="#">Forgot Password?</a></p>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
